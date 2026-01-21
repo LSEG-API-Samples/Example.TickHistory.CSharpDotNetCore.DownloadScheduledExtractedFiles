@@ -14,7 +14,7 @@ namespace DownloadScheduledExtractedFiles_dotnetcore
     class DSSClient
     {
         private string token;
-        private string dssURI = "https://selectapi.datascope.refinitiv.com/RestApi/v1/";
+        private string dssURI = "https://selectapi.datascope.lseg.com/RestApi/v1/";
         private string authEndpoint = "Authentication/RequestToken";
         private string scheduleByNameEndpoint = "Extractions/ScheduleGetByName(ScheduleName='{0}')";
         private string scheduleEndpoint = "Extractions/Schedules";
@@ -296,3 +296,4 @@ namespace DownloadScheduledExtractedFiles_dotnetcore
         
     }
 }
+
